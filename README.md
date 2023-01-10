@@ -17,7 +17,12 @@ Key technical components of this web service:
  - Ensure erorr handling was in place for responses 
  
  #### Test Drive Development:
- Postman Client was used throghout this process to test API running on localhost server (POST/GET requests).
+ -  Used VSCode IDE as my development environment. 
+    - cmd to deploy locally:
+      - export FLASK_APP=app.py
+      - flask run
+      
+ -  Postman Client was used throghout this process to test API running on localhost server (POST/GET requests).
  
  #### Framework:
  Flask was used as the web framework as it includes the flask_restful module for building RestAPI seamlessly. 
